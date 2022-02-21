@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		044AEC9627C2E88E00797B0E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044AEC9527C2E88E00797B0E /* SecondViewController.swift */; };
 		A66AF16C27B922B200EE9181 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66AF16B27B922B200EE9181 /* AppDelegate.swift */; };
 		A66AF17027B922B200EE9181 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66AF16F27B922B200EE9181 /* ViewController.swift */; };
 		A66AF17527B922B400EE9181 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A66AF17427B922B400EE9181 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		044AEC9527C2E88E00797B0E /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		A66AF16827B922B200EE9181 /* TestGitHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestGitHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A66AF16B27B922B200EE9181 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A66AF16F27B922B200EE9181 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 			children = (
 				A66AF16B27B922B200EE9181 /* AppDelegate.swift */,
 				A66AF16F27B922B200EE9181 /* ViewController.swift */,
+				044AEC9527C2E88E00797B0E /* SecondViewController.swift */,
 				A66AF17427B922B400EE9181 /* Assets.xcassets */,
 				A66AF17627B922B400EE9181 /* LaunchScreen.storyboard */,
 				A66AF17927B922B400EE9181 /* Info.plist */,
@@ -131,6 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				044AEC9627C2E88E00797B0E /* SecondViewController.swift in Sources */,
 				A66AF17027B922B200EE9181 /* ViewController.swift in Sources */,
 				A66AF16C27B922B200EE9181 /* AppDelegate.swift in Sources */,
 			);

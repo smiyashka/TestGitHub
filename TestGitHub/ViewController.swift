@@ -12,6 +12,7 @@ class ViewController: UIViewController {
     let labelOne = UILabel()
     let buttonLabel = UIButton()
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
@@ -57,6 +58,7 @@ extension ViewController {
    
     @objc func pressButton() {
         labelOne.text = "Hello!!!"
+        navigationController?.pushViewController(SecondViewController(), animated: true)
     }
     
 }
